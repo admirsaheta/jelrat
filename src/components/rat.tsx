@@ -25,7 +25,7 @@ const Preloader = ({ onComplete }: { onComplete: () => void }) => {
         ease: "power4.out",
       })
       .to(".flag", {
-        scale: 10, // Scale to fill the screen
+        scale: 10, 
         opacity: 0,
         duration: 1,
         ease: "power4.inOut",
