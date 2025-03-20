@@ -1,5 +1,5 @@
 ---
-import CheckBackLater from '@/components/rat';
+import HomeSection from '@/components/home';
 import Layout from '../layouts/Layout.astro';
 import '@/styles/globals.css'
 import Analytics from '@vercel/analytics/astro'
@@ -10,5 +10,5 @@ import Analytics from '@vercel/analytics/astro'
 
 <Layout>
 	<Analytics />
-	<CheckBackLater client:only />
+	<HomeSection client:only />
 </Layout>
